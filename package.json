@@ -1,0 +1,23 @@
+{
+  "name": "radio-api-sdk",
+  "version": "1.0.0",
+  "description": "Client API SDK for Radio API",
+  "main": "./src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "compile": "tsc -p .",
+    "test": "jest"
+  },
+  "author": "Aaron Morey",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0",
+    "typescript": "^3.0.3"
+  }
+}
